@@ -1,0 +1,129 @@
+body{
+    color: white;
+    background: url(../img/abstract-timekeeper.svg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header img {
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    border-radius: 10%;
+    border: 3px solid rgb(102, 165, 151);
+    display: block;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+ .primeiro_paragrafo{
+    color: white;
+ }
+ .limpar{
+    color: rgb(172, 6, 6);
+    background-color: rgb(40, 214, 245);
+    border-radius: 15%;
+    width: 60px;
+    height: 40px;
+ }
+ .limpar:hover{
+    cursor: pointer;
+    background-color: rgb(36, 124, 139);
+ }
+ .enviar{
+    color: rgb(172, 6, 6);
+    background-color: rgb(40, 214, 245);
+    border-radius: 15%;
+    width: 60px;
+    height: 40px;
+ }
+ .enviar:hover{
+    cursor: pointer;
+    background-color: rgb(36, 124, 139);
+ }
+ .video {
+    width: 100%;
+    max-width: 1280px;
+    height: 500px;
+    border-radius: 10%;
+    border: 3px solid rgb(102, 165, 151);
+    display: block;
+    margin: 0 auto;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+footer a {
+    margin-top: 6px;
+    text-align: center;
+}
+footer a:hover{
+    color: rgb(40, 214, 245);
+}
+.nossos{
+    text-align: justify;
+}
+.copy{
+    margin-top: 1px;
+}
+strong{
+    color: rgb(122, 92, 8);
+}
+.container{
+    padding: 0px 10px;
+}
+nav a {
+    font-size: 18px;
+}
+nav a:hover {
+    color: rgb(40, 214, 245); 
+}
+.entrar input{
+    width: 20%;
+    padding: 8px 0;
+    margin: 4px 0;    
+}
+.criar input{
+    padding: 8px 0;
+    margin: 4px 0;
+    border-radius: 10%;   
+}
+button{
+    color: rgb(172, 6, 6);
+    background-color: rgb(40, 214, 245);
+    border-radius: 15%;
+    width: 60px;
+    height: 40px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:  rgb(36, 124, 139);
+}
+@media screen and (min-width: 1000px) {
+    body {
+        width: 90%;
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
+
+
+
+

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GincanaStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header class="center">  
+        <figure>
+        <img src="img/Gincana.jpeg"  alt="logo da loja">
+        </figure>
+        <h1 class="nome">GincanaStore</h1>
+        <p class="primeiro_paragrafo">Bem-vindo à GincanaStore, uma loja virtual fundada em 2020, durante a pandemia, pela visionária Jocelyne Botshimbo M'pusa. A Gincana Store se destaca no mercado por sua dedicação em oferecer produtos de primeira qualidade, adquiridos diretamente da Turquia, e comercializá-los para clientes em todo o mundo.</p>
+    </header>
+    <header>
+        <Nav>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/yves-b-luana-75b266223/" target="_blank" rel="noopener noreferrer">Pagina Inicial</a></li>
+            <li> <a href="mailto:ybingos@yahoo.fr">Contato</a></li>
+        </ul>
+       </Nav>
+    </header>
+    
+    <h3>Entrar na sua conta</h3>
+   <form class="entrar" action="//login" method="post" onsubmit="entrar(event)">
+    <label for="login">Login</label>
+    <input type="email" id="login" name="login" placeholder="fulano@mail.com" required />
+    
+    <label for="password">Senha</label>
+    <input type="password" id="password" name="password" placeholder="***************" required />
+    
+    <button type="submit">Entrar</button>
+    </form>
+    <br>
+
+    <h3>Criar uma conta</h3>
+
+    <form class="criar" onsubmit="processa(event)">
+        Nome completo: <input type="text" name="nomecompleto" maxlength="50" placeholder="Yves Botsh" required /><br>
+        Telefone: <input type="tel" name="telefone" placeholder="+(55)92995352842" required /><br>
+        Senha: <input type="password" name="senha" placeholder="XXXXXXXXXXXXXX" required /><br>
+        Data de nascimento: <input type="date" name="dnasc" /><br>
+        Endereços de clientes:<br>
+        <textarea cols="30" rows="10" inputmode="text" name="enderecos" placeholder="Inserira as informações necessárias." required></textarea><br>
+
+        Brasil<input type="checkbox" value="brasil" name="brasil" /><br>
+        Internacional<input type="checkbox" value="internacional" name="internacional" /><br>
+
+        Sexo:<br>
+        Masculino <input type="radio" value="masculino" name="sexo" /><br>
+        Feminino <input type="radio" value="feminino" name="sexo" /><br>
+
+        <input class="limpar" type="reset" value="limpar" onclick="limparConsole()" /><br>
+        <input class="enviar" type="submit" value="enviar" />
+    </form>
+     <br><br>
+
+    <video class="video" src="video/video.mp4" controls></video>
+    
+    <h2>Roupas Femininas</h2>
+    <nav>
+        <ol>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Acessórios</a></li>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Blusa</a></li>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Camisa</a></li>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Camiseta</a></li>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Vestido</a></li>
+        </ol>
+    </nav>
+
+    <h2>Roupas Masculinas</h2>
+    <nav>
+        <ol>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Acessórios</a></li>
+            <li> <a href="http://" target="_blank" rel="noopener noreferrer">Camisa</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer">Camiseta</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer">Calça</a></li>
+            <li><a href="http://" target="_blank" rel="noopener noreferrer">Tenis</a></li>
+        </ol>
+    </nav>
+
+    <div class="nossos">
+        <h4>Nossos Produtos e Alcance Global:</h4> 
+        <p>Especializados em artigos selecionados com rigor, nossos produtos refletem o melhor que a Turquia tem a oferecer. Desde têxteis luxuosos até acessórios, cada item é escolhido para proporcionar uma experiência única aos nossos clientes. Utilizando o modelo de dropshipping, a GincanaStore elimina intermediários, permitindo uma operação eficiente e ágil. Isso nos possibilita atender clientes em diversas partes do mundo, oferecendo um serviço de entrega confiável e produtos de qualidade inigualável.</p>  </div> <br>
+    <footer>
+      
+        <div class="copy">
+        &copy; 2024 by <strong>Yves</strong> </div><br>
+    
+        <a href="https://www.instagram.com/gincanastore/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <img src="/img/icons8-instagram.svg" alt="insta_svg"> <br>
+
+        <a href="https://www.tiktok.com/@gincanastore " target="_blank" rel="noopener noreferrer">TikTok</a>
+        <img src="/img/icons8-tik-tok.svg" alt="tik_svg">
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
